@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <title>My tasks</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+    
+    
+<body>
+    
+    
+ <div id="parent">
+     <!--Header-->
+    <div id="header">
+          <h1> My tasks </h1>
+  
+    </div>
+          <!--Header ends-->
+
+    <!-- task 1 -->
+
+    <div id="fomhead">
+        <p>1.Age Calculator</p>
+        <form >
+            <label class="task101-label">Birth year</label><br>
+            <input type="text"  id="birth">
+            <br>
+            
+            <button type="button" onclick="calculateAge()" id="task101btn1">CALCULATE</button>
+            <button type="reset" id="task101btn2">Clear the fields</button>
+        </form> 
+<p><span id="age1">Answers:</span></p>
+    </div>
+         <!-- task 1 end-->
+   
+    <!-- task 2 -->
+    <div id="fomhead">
+        <p>2.Life time calculator</p>
+        <form >
+            <label class="task101-label">Your age</label><br>
+            <input type="text"  id="age">
+            <br>
+            <label class="task101-label">Amount per day</label><br>
+            <input  type="text"  id="amt" value="">
+            
+            <button type="button" onclick="calculateSupply()" id="task101btn1">CALCULATE</button>
+            <button type="reset" id="task101btn2">Clear the fields</button>
+        </form> 
+<p><span id="ans2">Answers:</span></p>
+    </div>
+        <!-- task 2 end -->
+
+        
+        
+            <!-- task 3 -->
+    <div id="fomhead">
+        <p>3.THE GEOMETRIZER</p>
+        <form>
+            <label class="task101-label">Radius</label><br>
+            <input type="text"  id="R">
+            <br>
+            
+            <button type="button" onclick="calculatecircumference()" id="task101btn1">CALCULATE CIRCUMFERENCE</button>
+            <button type="button" onclick="calculatearea()" id="task101btn1">CALCULATE AREA</button>
+
+            <button type="reset" id="task101btn2">Clear the fields</button>
+        </form> 
+<p><span id="ans3">Answers:</span></p>
+
+    </div>
+        <!-- task 3 end -->
+
+                
+            <!-- task 4 -->
+    <div id="fomhead">
+        <p>4.THE TEMPERATURE CONVERTER</p>
+        <form>
+            <label class="task101-label">Enter the value to Convert</label><br>
+            <input type="text"  id="C">
+            <br>
+            
+            <button type="button" onclick="fahrenheitToCelsius()" id="task101btn1">CALCULATE CELSIUS To FAHRENHEIT </button>
+            <button type="button" onclick="celsiusToFahrenheit()" id="task101btn1">CALCULATE FAHRENHEIT TO CELSIUS </button>
+
+            <button type="reset" id="task101btn2">Clear the fields</button>
+        </form> 
+<p><span id="ans4">Answers:</span></p>
+
+    </div>
+        <!-- task 4 end -->
+
+         <!-- Footer -->
+
+    <div id="footer">
+          <h1> &copy;	Copyright </h1>
+  
+    </div>   
+           <!-- Footer end -->
+
+    
+</div>
+    
+       <script src="script.js"></script>
+ 
+</body>
+</html>
